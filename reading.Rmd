@@ -1,0 +1,14 @@
+---
+title: "reading"
+author: "Yitong Fu"
+date: "2023-08-06"
+output: html_document
+---
+```{r}
+library(tidyverse)
+```
+
+```{r}
+ggplot(diamonds,aes(x = price))+geom_histogram(aes(color = cut))
+```
+
